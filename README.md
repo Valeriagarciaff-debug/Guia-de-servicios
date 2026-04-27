@@ -193,7 +193,7 @@ html+=`
 <h3>${n.nombre}</h3>
 <p>${n.tipo}</p>
 <p>${n.direccion}</p>
-<p><a href="tel:${n.telefono}">📞 ${n.telefono}</a></p>
+<p><a href="tel:${n.telefono}"> ${n.telefono}</a></p>
 </div>`;
 });
 document.getElementById("lista").innerHTML=html;
